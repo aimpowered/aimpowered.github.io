@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Demo
+title: "Autotune Demo"
 summary: "A demo for autotuning my own speech in audio and video to reduce disfluency."
 ---
 
