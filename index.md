@@ -5,7 +5,7 @@ title: "About Us"
 
 AImpower.org is a tech non-profit that is dedicated to build innovative,
 empowering AI technologies **for** and **with** marginalized communities.
-For example, leveraging vision/speech/language models to build new tools for people with visual impairment, people with speech/hearing impairment, and people with language challenges (e.g. dyslexia, aphasia).
+For example, leveraging vision/speech/language models to build new tools for people with visual impairment, people with speech/hearing impairment, or people with language challenges (e.g. dyslexia, aphasia).
 
 
 Our principles are:
