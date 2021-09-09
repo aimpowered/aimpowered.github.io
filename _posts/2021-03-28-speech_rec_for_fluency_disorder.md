@@ -135,5 +135,3 @@ Note that this type of close-up video is probably not the best demo for this tec
 
 The code for producing the results can be found in this [notebook](https://colab.research.google.com/drive/1jn8oTaEJRMl9PEKi7jj8zfwnxctxox8u?usp=sharing). 
 
- 
- 
