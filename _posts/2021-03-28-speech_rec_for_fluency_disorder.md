@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Speech recognition and enhancement for atypical speech"
+title: "Speech Technology for People Who Stutter"
 Date: 2021-03-28
 Modified: 2021-03-28
 Category: Blog
@@ -9,9 +9,11 @@ Authors: Shaomei Wu
 Summary: "I play with a few state-of-the-art speech recognition models with my own speech sample and find a way to auto-tune my own speech to reduce disfluency."
 ---
 
-Speech recognition technology has progressed a lot in recent years, especially when using modern deep learning techniques. While new models such as Facebook AI Research's [wav2vec](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec) has achieved 2.43 WER (Word Error Rate) in research benchmark dataset, their performance usually tanks when processing atypical speech, such as, speech by people with fluency disorder, stuttering, people who are deaf or hard of hearing, or people with a thick accent. 
+# Speech Technology for People Who Stutter
 
-I am one of [many](https://twitter.com/kenjilopezalt/status/1295630888600928258) who suffer from speech [fluency disorder](https://www.asha.org/practice-portal/clinical-topics/fluency-disorders/). How it manifests varies widely for individuals, but as for me, it results in a lot of pauses/breaks and [filler words](https://en.wikipedia.org/wiki/Speech_disfluency#Fillers) in my natural speech, and it is a lot worse when I am speaking under pressure or being recorded.
+Speech recognition technology has progressed a lot in recent years, especially when using modern deep learning techniques. While new models such as Facebook AI Research's [wav2vec](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec) has achieved 2.43 WER (Word Error Rate) in research benchmark dataset, their performance usually tanks when processing atypical speech, such as, speech by people who stutter, people who are deaf or hard of hearing, or people with an accent. 
+
+I am one of [1% adult population that stutter](https://westutter.org/what-is-stuttering/). How stuttering manifests itself varies widely for individuals depending on the speaking situation, but as for me, who stutters covertly for most of my life, it results in tremendous anxiety and fear for speaking, as well as lots of blocks and filler words in my speech. I also find it particularly challenging to manage my speech and my anxiety when speaking under pressure or being recorded.
 
 Here is a speech sample of me introducing myself, just to give you a flavor.
 
@@ -21,14 +23,16 @@ Audio element failed...
 </audio>
 
 
-You can hear lots of uh's and um's in my speech. While I have been work towards accepting my speech pattern and rolling with it, it does cause some inconvenience in my life. For example:
+You can hear lots of uh's and um's in my speech. While I have been work towards accepting my speech pattern and stuttering openly, it does cause some inconvenience in my life. For example:
 
-- Speech-based AI interfaces have trouble understanding me;
+- Voice controlled systems have trouble understanding me;
 - When there is a time limit, I can not fit as much content during my time slot as others do;
-- People are often confused and distracted by my atypical speech pattern thus pay less attention to what I say;
-- It is very hard for me to leave voicemail... 
+- People often seem confused or distracted by the way I talk thus pay less attention to what I was talking about;
+- It is very hard for me to leave voicemail;
+- ...
+ 
 
-## ASR on Atypical Speech
+## ASR on My Speech
 
 I tried out a few different Automatic Speech Recognition (ASR) models to transcribe what I was saying on the audio clip above. 
 
@@ -63,7 +67,7 @@ One thing I do not really like about this transcription, despite its readability
 It does run a lot slower than wav2vec or Google cloud speech API, but it seems to achived a good balance between readability and authenticity.
 
 
-### Better ASR for Atypical Speech
+### Better ASR for Stuttering Speech
 
 Overall none of these models worked very well with my speech and the WER is significantly higher than what was reported with the benchmark.
 
@@ -71,7 +75,7 @@ One way to improve the performance of current models on my speech is to tune the
 
 It is still a lot of work to record and transcribe 30mins or hours of my own speech though. One way to make this easier is through data augmentation, a technique I used when training spellchecker for people with dyslexia. More specifically, we could randomly inject filler words into existing training dataset and feed the model with the pertubated data. But for now let's move on and save this for the next blogpost.
 
-## Auto-tuning Atypical Speech
+## Auto-tuning Stuttering Speech
 
 Given that the most obvious thing with my speech is the use of filler words (uhs and ums), I would like to be able to clean them up automatically.
 
@@ -88,7 +92,7 @@ Although Google did provide timestamped transcription, their timestamps were not
 
 SpeechBrain and wav2vec do not provide timestamps for their transcription, but fortunately, we can still align the transcription with the audio file using an open-sourced tool called [gentle](https://github.com/lowerquality/gentle/) (which is built on top [Kaldi](https://github.com/kaldi-asr/kaldi)) and infer the timestamps of each word in the transcription.
 
-### Remove filler words from atypical speech
+### Remove filler words from stuttering speech
 
 After finding all the start and end times for "AM" in the wav2vec transcription, it is easy to programmatically edit out all these timeframes from the original audio through python. 
 
@@ -99,7 +103,7 @@ Here is the result auto-tuned audio. You can noticed that most of the filler wor
 Audio element failed...
 </audio>
 
-## Auto-tuning Video with Atypical Speech
+## Auto-tuning Video with Stuttering Speech
 
 The similar technique can be used to automatically edit a video to cut out the part with filler words, as shown in this example below.
 
