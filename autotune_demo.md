@@ -4,11 +4,13 @@ title: "Autotune Demo"
 summary: "A demo for autotuning my own speech in audio and video to reduce disfluency."
 ---
 
-# Use AI to autotune audio and videos with atypical speech
+# Use AI to autotune audio and videos with speech disfluencies
 
-## Auto-tuning Audio with Speech Disfluency
+*Disclaimer*: This demo is intended as a technical exploration only. We are absolutely not suggesting that speech disfluencies should be hidden or eliminated. We believe everyone should have control over their speech and have a choice on whether and how to share their identity as a person who stutter or with other speech related challenges. We also firmly believe that it is healthy and productive for our society to hear more stuttering collectively and to expand the space for speech disfluencies in our communications.
 
-Original audio recording of speech with disfluency:
+## Auto-tuning Audio with Speech Disfluencies
+
+Original audio recording of speech with disfluencies (mostly filler words):
 
 <audio controls>
 <source src="assets/media/short_intro.wav">
@@ -26,7 +28,7 @@ Autotuned version:
 Audio element failed...
 </audio>
 
-## Auto-tuning Video with Speech Disfluency
+## Auto-tuning Video with Speech Disfluencies
 
 Original video recording of me speaking (12 sec):
 

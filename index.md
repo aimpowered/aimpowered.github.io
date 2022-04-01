@@ -5,6 +5,8 @@ title: "About Us"
 
 AImpower.org is a tech non-profit that is dedicated to evaluate and envision new and existing technologies **for** and **with** marginalized communities to dismantle barriers and deliver tangible benefits. 
 
+## What do we do
+ 
 The scope of our work include (but not limited to):
 - Research and identify structural barriers for a community in specific technological contexts. For example, we work with people who stutter to uncover systematic issues in speech-related technologies and voice controlled systems.
 
@@ -20,7 +22,7 @@ For example, we may design a camera-based "personal stylist" app with the visual
 - Advise and support marginalized communities on technical issues. For example, scoping and evaluating technical systems needed by the community; organizing collective resistance to technical systems deployed without the consent of the community. 
 
 
-Our principles:
+## Our principles
 
 - **Community oriented, NOT technology oriented.**  We believe research and development of technology should center the experiences and needs of marginalized communities, and should be driven by the goals of the communities, rather than the technology itself. 
 
