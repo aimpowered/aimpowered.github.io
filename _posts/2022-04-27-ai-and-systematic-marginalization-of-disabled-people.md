@@ -9,7 +9,7 @@ Authors: Shaomei Wu
 Summary: "I was invited to talk to students from Columbia University about the challenges and marginalizations created by AI technology for disabled people, as part of the Columbia Data for Social Good monthly event."
 ---
 
-It was a great experience joining the students from Columbia University to discuss the issues, challenges, and opportunities with AI for disabled people. 
+I had the pleasure to speak to students from the Columbia Data for Social Good club in their [monthly event](https://www.linkedin.com/posts/columbiadsg_socialgood-datascience-dataanalytics-activity-6922423431682560000-iwZx?utm_source=linkedin_share&utm_medium=member_desktop_web) on April 27, 2022. Under the theme of Equity for Marginalized Communities using Tech, I discussed the issues, challenges, and opportunities with AI for disabled people. 
 
 
 Here is an outline of my talk ([slides](https://medium.datadriveninvestor.com/sidewalk-toronto-and-why-smarter-is-not-better-b233058d01c8))
