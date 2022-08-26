@@ -34,7 +34,7 @@ In fact, after attending a few of the open mic sessions, I gathered my courage a
 
 <br><!-- quotation -->
 
-> “I think my own personal experience as someone with multiple intersectional marginalized identities created this mechanism for me to notice and reflect on the systematic marginalization of certain groups in society, and my background in tech made me more aware of how technology has played a role in it.” 
+> “I think my own personal experience as someone with multiple intersectional marginalized identities created this mechanism for me to notice and reflect on the systematic marginalization of certain groups in society, and my background in tech made me more aware of how technology has played a role in it.”   - Shaomei Wu
 
 
 <br>
@@ -42,7 +42,7 @@ In fact, after attending a few of the open mic sessions, I gathered my courage a
 
 **Shaomei:** I think there’s a lot to be done in terms of how intersectionality is considered and served within the NSA community. There’s a collective action and research sharing component, so the conference has workshops covering different topics. For example, one workshop I really liked was on stuttering and the BIPOC community, which focused on how to empower people of color who stutter. 
 
-This is a crucial topic because the organizers and leadership of NSA are predominantly white, even though stuttering happens at the same rate across populations. However, people who attend the convention as well as the people who lead the organization are still following the societal norms of a white-centered composition. This was actually brought up and talked about a lot in that workshop. I really like this point that was brought up by a participant, that the best way to be an ally is to share the power. Which isn’t new, but it’s refreshing to hear someone say that in front of the all-white NSA leadership team.
+This is a crucial topic because the organizers and leadership of NSA are predominantly white, even though stuttering happens at the same rate across populations. However, people who attend the convention as well as the people who lead the organization are still following the societal norms of a white-centered composition. This was actually brought up and talked about a lot in that workshop. I really like this point that was brought up by a participant, that the best way to be an ally is to share the power. Which isn’t new, but it’s refreshing to hear someone say that in front of the majority-white NSA leadership team.
 
 <br><!-- quotation -->
 
