@@ -9,8 +9,6 @@ Authors: Shaomei Wu
 Summary: "I play with a few state-of-the-art speech recognition models with my own speech sample and find a way to auto-tune my own speech to reduce disfluency."
 ---
 
-# Speech Technology for People Who Stutter
-
 Speech recognition technology has progressed a lot in recent years, especially when using modern deep learning techniques. While new models such as Facebook AI Research's [wav2vec](https://github.com/pytorch/fairseq/tree/master/examples/wav2vec) has achieved 2.43 WER (Word Error Rate) in research benchmark dataset, their performance usually tanks when processing atypical speech, such as, speech by people who stutter, people who are deaf or hard of hearing, or people with an accent. 
 
 I am one of [1% adult population that stutter](https://westutter.org/what-is-stuttering/). How stuttering manifests itself varies widely for individuals depending on the speaking situation, but as for me, who stutters covertly for most of my life, it results in tremendous anxiety and fear for speaking, as well as lots of blocks and filler words in my speech. I also find it particularly challenging to manage my speech and my anxiety when speaking under pressure or being recorded.
