@@ -8,3 +8,8 @@ google_analytics: "G-M3LGTJPH39"
 
 theme: minima
 
+header_pages:
+  - index.md
+  - blog.md
+  - contact.md
+  - autotune_demo.md
